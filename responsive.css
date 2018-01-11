@@ -28,7 +28,8 @@
 @media screen and (max-width: 678px){
   /*testimonials*/
   .animation-element.slide-left.testimonial,
-  .animation-element.slide-left.testimonial:nth-of-type(odd),
+  .animation-element.
+  slide-left.testimonial:nth-of-type(odd),
   .animation-element.slide-left.testimonial:nth-of-type(even){
     width: 100%;
     margin: 0px 0px 20px 0px;

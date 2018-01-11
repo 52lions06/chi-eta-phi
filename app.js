@@ -1,17 +1,17 @@
 'use strict';
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-const myFunction = () => {
-  const x = document.getElementById('myTopnav');
-  if (x.className === 'nav') {
-    x.className += ' responsive';
-  } else {
-    x.className = 'nav';
-  }
-};
+// const myFunction = () => {
+//   const x = document.getElementById('myTopnav');
+//   if (x.className === 'nav') {
+//     x.className += ' responsive';
+//   } else {
+//     x.className = 'nav';
+//   }
+// };
 
 
 
-$(function () {
+$(document).ready(function() {
 
 /* inserting a slider */
 
